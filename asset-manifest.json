@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Venkata-Subbaiah/static/css/main.419865b4.css",
+    "main.js": "/Venkata-Subbaiah/static/js/main.ca15c299.js",
+    "static/media/profile.png": "/Venkata-Subbaiah/static/media/profile.6947bb7872142819e2a3.png",
+    "index.html": "/Venkata-Subbaiah/index.html",
+    "main.419865b4.css.map": "/Venkata-Subbaiah/static/css/main.419865b4.css.map",
+    "main.ca15c299.js.map": "/Venkata-Subbaiah/static/js/main.ca15c299.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.419865b4.css",
+    "static/js/main.ca15c299.js"
+  ]
+}
