@@ -17,7 +17,6 @@ const About = () => {
         <h3>Academic Background</h3>
         <div className='academics-background'>
           <ul>
-            <li>PhD in Mathematics (Pursuing) - University of Copenhagen</li>
             <li>Integrated Master of Science in Mathematics (2020-25) - [SVNIT]</li>
           </ul>
         </div>
