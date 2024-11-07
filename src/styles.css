@@ -1,0 +1,248 @@
+/* styles.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #e0e0e0;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #4db8ff;
+}
+
+h1, h2, h3 {
+  color: #4db8ff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.container {
+  padding: 2rem 15%;
+}
+
+button, .link-button {
+  padding: 10px 20px;
+  color: #121212;
+  background-color: #4db8ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover, .link-button:hover {
+  background-color: #379acb;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  padding: 1.5rem 0;
+  color: #888;
+}
+
+footer a {
+  color: #4db8ff;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #379acb;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 2rem 5%;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+}
+
+/* Global Styles */
+body {
+  font-family: 'Poppins', 'Montserrat', 'Raleway', sans-serif; /* Use Poppins as the primary font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Other styles as defined previously */
+.main-container {
+  background-color: #ffffff; /* White background for the container */
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 800px; /* Fixed width for small-frame effect */
+  width: 90%; /* Make responsive on smaller screens */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Home Page Layout */
+.home-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4db8ff; /* Border color for photo */
+}
+
+.home-content {
+  max-width: 600px;
+  text-align: left; /* Ensures all text is left-aligned */
+}
+
+.name {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #333; /* Dark grey for text */
+  text-align: left; /* Explicitly aligns name to the left */
+}
+
+.home-content .intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666; /* Medium grey for softer contrast */
+  margin-bottom: 1.5rem;
+}
+
+.home-content p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333; /* Dark grey for headings */
+}
+
+.home-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 1rem;
+}
+
+.home-content li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444; /* Dark grey for list items */
+}
+
+/* Contact Button Styling */
+.contact-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.2rem;
+  background-color: #4db8ff; /* Button color */
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #36a3e0; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .profile-photo {
+      width: 150px;
+      height: 150px;
+  }
+}
+
+
+.about-container {
+  padding: 3rem;
+  max-width: 800px; /* Fixed width for small-frame effect */
+  margin: 0 auto; /* Center align the container */
+  background-color: #ffffff; /* White background for the container */
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+  text-align: left; /* Ensures all text is left-aligned */
+}
+
+.about-me,
+.academic-background {
+  margin-bottom: 1.5rem; /* Adds spacing between sections */
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333; /* Dark grey for section headings */
+  margin-bottom: 0.5rem;
+}
+
+
+
+footer {
+  background-color: #ffffff;
+  align-items: center;
+}

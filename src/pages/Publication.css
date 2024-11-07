@@ -1,0 +1,43 @@
+/* Publications Page Styling */
+.page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+}
+
+.publications-section {
+    margin-top: 1rem;
+}
+
+.publication-item {
+    margin-bottom: 1.5rem;
+}
+
+.publication-title {
+    color: #0066cc; /* Blue color for clickable title */
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.publication-title:hover {
+    color: #004a99; /* Darker blue on hover */
+}
+
+.status {
+    color: #333;
+    font-weight: 400;
+}
+.publication-authors {
+    color: #555;
+    font-size: 0.95rem;
+    font-style: italic;
+    margin: 0.3rem 0;
+}
+
+.publication-description {
+    margin-top: 0.3rem;
+    color: #333;
+    font-size: 0.8rem;
+}

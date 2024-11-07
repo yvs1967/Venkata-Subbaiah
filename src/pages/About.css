@@ -1,0 +1,139 @@
+/* General Page Styles */
+body {
+    background-color: #ffffff; /* Set the entire page background to white */
+    font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
+}
+
+/* .about-container {
+    padding: 2rem;
+    max-width: 800px; /* Limit width for readability */
+    /* margin: auto; Center the container */
+    /* background-color: #ffffff; White background for the content */
+/* } */
+
+.about-content, .fun {
+    /* display: flex; */
+    align-items: center; /* Center items vertically */
+    /* flex-wrap: wrap; Allow items to wrap on smaller screens */
+}
+
+.about-image {
+    width: 150px; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+    margin: 0 20px; /* Space around images */
+}
+
+.about-text {
+    /* flex: 1; Allow the text to take remaining space */
+    color: #333; /* Text color for content */
+}
+
+.about-text.h2, .about-text.h3 {
+    color: #333;
+    text-align: center;
+}
+
+.academics-background {
+    margin: 2rem auto; /* Center horizontally */
+    max-width: 600px; /* Limit width */
+    text-align: center;
+}
+
+.academics-background h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.academics-background ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.academics-background ul li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.experiences {
+    margin: 2rem auto; /* Center horizontally */
+    max-width: 800px; /* Limit width */
+    text-align: center;
+}
+
+.experiences h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.experiences ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.experiences ul li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+
+p {
+    text-align: left;
+    color: #444;
+    line-height: 1.6;
+}
+
+blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1rem;
+    color: #555;
+    font-style: italic;
+    margin: 1.5rem 0;
+    background-color: #f0f0f0; /* Light background for the blockquote */
+    padding: 1rem; /* Padding for the quote */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff; /* White background for the navbar */
+    padding: 1rem;
+}
+
+.navbar a {
+    color: #ff0000; /* Red color for navbar links */
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px; /* Spacing between navbar links */
+}
+
+.navbar a:hover {
+    color: #d40000; /* Slightly darker red on hover */
+}
+
+
+/* Fun Section */
+.fun-section {
+    margin: 2rem auto; /* Center horizontally */
+    padding: 1.5rem;
+    max-width: 800px; /* Limit width */
+    text-align: center;
+}
+
+.fun-section h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.fun-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.fun-section ul li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
